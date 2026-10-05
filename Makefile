@@ -7,7 +7,10 @@ setup:
 sql:
 	$(PY) -m src.run_sql
 
+ab:
+	$(PY) -m src.ab_test
+
 test:
 	$(PY) -m pytest -q
 
-.PHONY: setup sql test
+.PHONY: setup sql ab test
