@@ -102,3 +102,11 @@ def test_affinity_metrics_match_pandas(pipeline, raw_tables):
         assert np.isclose(r.confidence_a_to_b, both / a)
         assert np.isclose(r.lift, (both / n_baskets) / ((a / n_baskets) * (b_ / n_baskets)))
     assert got.lift.is_monotonic_decreasing
+
+
+def test_ab_inputs_match_retention(pipeline):
+    ab = pipeline["con"].execute("SELECT * FROM ab_users").df()
+    r = table(pipeline, "retention_by_segment")
+    assert len(ab) == pipeline["con"].execute("SELECT COUNT(*) FROM users").fetchone()[0]
+    assert np.isclose(ab.returned_14d.mean(), r[r.segment_type == "all"].retained_14d.iloc[0], atol=1e-6)
+    assert (ab.second_basket_size.notna() == (ab.returned_14d == 1)).all()
