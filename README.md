@@ -60,3 +60,15 @@ make test
 ```
 
 `make sql` builds `data/instacart.duckdb` and writes the tables. `make ab` runs the simulation with seed 42, and package versions are pinned in `requirements.txt`. The tests use generated data, not the real files.
+
+## Contact
+
+From [Yashasvi Jaiswal](https://yashjswl.com).
+
+LinkedIn: [linkedin.com/in/yashjswl](https://www.linkedin.com/in/yashjswl/)
+
+Email: [hello@yashjswl.com](mailto:hello@yashjswl.com)
+
+---
+
+&copy; 2026 Yashasvi Jaiswal. All rights reserved.
