@@ -13,7 +13,10 @@ ab:
 charts:
 	$(PY) -m src.make_charts
 
+notebook:
+	$(PY) -m jupyter nbconvert --to notebook --execute --inplace notebooks/analysis.ipynb
+
 test:
 	$(PY) -m pytest -q
 
-.PHONY: setup sql ab charts test
+.PHONY: setup sql ab charts notebook test
