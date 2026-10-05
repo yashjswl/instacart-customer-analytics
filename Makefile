@@ -1,5 +1,7 @@
 PY = .venv/bin/python
 
+all: sql ab charts notebook
+
 setup:
 	python3.11 -m venv .venv
 	$(PY) -m pip install -r requirements.txt
@@ -19,4 +21,4 @@ notebook:
 test:
 	$(PY) -m pytest -q
 
-.PHONY: setup sql ab charts notebook test
+.PHONY: all setup sql ab charts notebook test
