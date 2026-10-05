@@ -2,6 +2,12 @@
 
 This project asks how Instacart customers keep ordering after their first order, which parts of the catalog are bought out of habit, and how an experiment on a reorder reminder would be sized and analysed. The analysis is written in SQL (DuckDB) with Python for the statistics. The only simulated part is the A/B test, because the dataset contains no experiment.
 
+In short: about 56% of customers place a second order within 14 days of their first, and the share who have returned jumps at day 7, which suggests a weekly shopping habit. Reorder rates range from 71% in dairy and eggs to 34% in personal care. The most frequent product pairs are just the most popular products, and ranking by lift instead surfaces substitutes such as flavors of one yogurt brand. The A/B test is simulated, and its job is to show that the sizing and analysis code is correct when the true effect is known. A one-page proposal is in [reports/recommendation.md](reports/recommendation.md), and [notebooks/analysis.ipynb](notebooks/analysis.ipynb) walks through the results with charts.
+
+![Share of users whose second order came by day d](reports/return_curve.png)
+
+![Most frequent product pairs compared with highest-lift pairs](reports/affinity_count_vs_lift.png)
+
 ## Data
 
 The data is the Instacart Online Grocery Shopping Dataset 2017, as published for the Kaggle competition "Instacart Market Basket Analysis". I did not redistribute it. To run the project, download the six files (orders, order_products__prior, order_products__train, products, aisles, departments) from Kaggle into `data/raw/`, and read the dataset's terms of use on the Kaggle competition page and on Instacart's dataset page first.
