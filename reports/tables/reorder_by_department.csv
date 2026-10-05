@@ -1,0 +1,22 @@
+department,line_items,reorder_rate,meets_min_support
+dairy eggs,5298037,0.712287,True
+beverages,2636557,0.695207,True
+produce,9303994,0.69138,True
+bakery,1149640,0.669671,True
+deli,1025441,0.649702,True
+pets,95598,0.644302,True
+alcohol,146580,0.620767,True
+snacks,2825503,0.611245,True
+babies,416256,0.608887,True
+meat seafood,691871,0.607554,True
+bulk,34171,0.60683,True
+breakfast,691809,0.599699,True
+frozen,2178535,0.582069,True
+dry goods pasta,844358,0.495603,True
+canned goods,1041091,0.491136,True
+other,35720,0.434015,True
+household,722590,0.432399,True
+missing,75130,0.406216,True
+international,262195,0.396415,True
+pantry,1828551,0.371769,True
+personal care,437411,0.344882,True

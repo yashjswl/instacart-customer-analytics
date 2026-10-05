@@ -1,0 +1,5 @@
+order_k,users,p25_days_since_first,median_days_since_first,p75_days_since_first
+2,206209,7.0,13.0,28.0
+3,206209,15.0,29.0,44.0
+5,182223,34.0,57.0,81.0
+10,110728,70.0,106.0,148.0

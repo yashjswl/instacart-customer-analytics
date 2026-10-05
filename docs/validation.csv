@@ -1,0 +1,39 @@
+check_name,observed,expected,status
+rows: orders,3421083,,INFO
+rows: order_products__prior,32434489,,INFO
+rows: order_products__train,1384617,,INFO
+rows: products,49688,,INFO
+rows: aisles,134,,INFO
+rows: departments,21,,INFO
+duplicate order_id in orders,0,0,PASS
+"duplicate (order_id, product_id) in prior",0,0,PASS
+"duplicate (order_id, product_id) in train",0,0,PASS
+"duplicate (user_id, order_number) in orders",0,0,PASS
+duplicate product_id in products,0,0,PASS
+duplicate aisle_id in aisles,0,0,PASS
+duplicate department_id in departments,0,0,PASS
+prior rows with order_id not in orders,0,0,PASS
+train rows with order_id not in orders,0,0,PASS
+order_items rows with product_id not in products,0,0,PASS
+products with aisle_id not in aisles,0,0,PASS
+products with department_id not in departments,0,0,PASS
+prior rows whose order is not eval_set=prior,0,0,PASS
+train rows whose order is not eval_set=train,0,0,PASS
+prior orders with no line items,0,0,PASS
+train orders with no line items,0,0,PASS
+orders with eval_set=test (no line items by design),75000,,INFO
+null in orders key/time columns,0,0,PASS
+null days_since_prior_order where order_number > 1,0,0,PASS
+non-null days_since_prior_order where order_number = 1,0,0,PASS
+null in order_items columns,0,0,PASS
+null in products columns,0,0,PASS
+order_dow outside 0-6,0,0,PASS
+order_hour_of_day outside 0-23,0,0,PASS
+days_since_prior_order outside 0-30,0,0,PASS
+"reordered not in (0, 1)",0,0,PASS
+users whose order_number is not 1..n without gaps,0,0,PASS
+users,206209,,INFO
+min orders per user,4,,INFO
+max orders per user,100,,INFO
+orders with days_since_prior_order = 30 (cap),369323,,INFO
+"products in aisle/department named ""missing""",1258,,INFO

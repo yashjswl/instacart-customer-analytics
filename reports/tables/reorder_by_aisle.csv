@@ -1,0 +1,135 @@
+department,aisle,line_items,reorder_rate,meets_min_support
+dairy eggs,milk,873300,0.826896,True
+beverages,water seltzer sparkling water,828737,0.773452,True
+produce,fresh fruits,3576770,0.76221,True
+dairy eggs,eggs,443708,0.751413,True
+produce,packaged produce,271366,0.738188,True
+dairy eggs,soy lactosefree,625431,0.735603,True
+dairy eggs,yogurt,1417365,0.730198,True
+dairy eggs,cream,312468,0.724413,True
+bakery,bread,571400,0.714053,True
+beverages,refrigerated,563039,0.70548,True
+beverages,energy sports drinks,101393,0.694081,True
+bakery,breakfast bakery,245125,0.692475,True
+alcohol,white wines,29141,0.68625,True
+beverages,soft drinks,349350,0.684073,True
+produce,packaged vegetables fruits,1733391,0.679997,True
+frozen,frozen breakfast,227346,0.668963,True
+pets,cat food care,61844,0.667146,True
+deli,prepared meals,97217,0.65827,True
+beverages,coffee,203135,0.657085,True
+snacks,trail mix snack mix,35027,0.656779,True
+meat seafood,poultry counter,126702,0.652634,True
+deli,fresh dips tapenades,346197,0.651577,True
+deli,tofu meat alternatives,125970,0.651211,True
+bulk,bulk dried fruits vegetables,17267,0.649447,True
+deli,lunch meat,385825,0.647866,True
+meat seafood,packaged poultry,115296,0.646371,True
+breakfast,granola,99504,0.636316,True
+deli,prepared soups salads,70232,0.635978,True
+snacks,energy granola bars,446139,0.635118,True
+produce,fresh vegetables,3353094,0.633308,True
+beverages,juice nectars,325957,0.633053,True
+snacks,popcorn jerky,159725,0.631855,True
+snacks,chips pretzels,706695,0.628328,True
+snacks,fruit vegetable snacks,172441,0.627345,True
+breakfast,breakfast bars pastries,70222,0.626698,True
+frozen,frozen pizza,157855,0.626385,True
+dairy eggs,packaged cheese,958080,0.624457,True
+babies,baby food formula,375598,0.620456,True
+alcohol,spirits,26846,0.620279,True
+alcohol,beers coolers,46524,0.615317,True
+dairy eggs,butter,248929,0.614091,True
+breakfast,cereal,367770,0.612714,True
+snacks,candy chocolate,294210,0.607671,True
+snacks,crackers,448702,0.60763,True
+frozen,frozen meals,378334,0.603229,True
+dairy eggs,other creams cheeses,300949,0.603225,True
+pets,dog food care,33754,0.602447,True
+alcohol,red wines,33386,0.600072,True
+canned goods,canned fruit applesauce,85745,0.59874,True
+dairy eggs,refrigerated pudding desserts,36606,0.596159,True
+meat seafood,hot dogs bacon sausage,297805,0.595625,True
+snacks,mint gum,22271,0.595528,True
+bakery,tortillas flat bread,188442,0.59024,True
+snacks,cookies cakes,228894,0.585703,True
+frozen,frozen vegan vegetarian,96830,0.585356,True
+frozen,frozen produce,509025,0.580749,True
+babies,baby accessories,8055,0.57964,False
+frozen,frozen breads doughs,38973,0.578426,True
+meat seafood,packaged meat,33297,0.576989,True
+frozen,frozen meat seafood,70023,0.568913,True
+bakery,buns rolls,110439,0.568078,True
+meat seafood,meat counter,69720,0.567025,True
+household,paper goods,239109,0.565704,True
+frozen,frozen appetizers sides,190122,0.563438,True
+bulk,bulk grains rice dried goods,16904,0.563299,True
+beverages,tea,244105,0.559202,True
+meat seafood,seafood counter,28665,0.554509,True
+produce,fresh herbs,369373,0.551708,True
+snacks,nuts seeds dried fruit,300516,0.551335,True
+meat seafood,packaged seafood,20386,0.545227,True
+dry goods pasta,fresh pasta,35706,0.543214,True
+babies,diapers wipes,24220,0.541536,True
+canned goods,canned meals beans,263756,0.541197,True
+personal care,protein meal replacements,35859,0.539112,True
+breakfast,hot cereal pancake mixes,154313,0.532781,True
+alcohol,specialty wines champagnes,10683,0.531779,True
+bakery,bakery desserts,34234,0.530554,True
+frozen,ice cream ice,486522,0.526583,True
+dry goods pasta,instant foods,196525,0.525348,True
+dairy eggs,specialty cheeses,81201,0.520893,True
+pantry,spreads,282751,0.520299,True
+dry goods pasta,pasta sauce,212613,0.515298,True
+canned goods,canned meat seafood,65381,0.514798,True
+pantry,preserved dips spreads,106081,0.504567,True
+dry goods pasta,dry pasta,259126,0.487342,True
+frozen,frozen juice,4849,0.479893,False
+pantry,pickled goods olives,110027,0.479246,True
+personal care,digestion,26491,0.472613,True
+household,plates bowls cups flatware,42653,0.46815,True
+frozen,frozen dessert,18656,0.458458,True
+canned goods,soup broth bouillon,336877,0.453326,True
+canned goods,canned jarred vegetables,289332,0.452287,True
+household,laundry,92159,0.437689,True
+beverages,cocoa drink mixes,20841,0.435008,True
+international,indian foods,15452,0.434572,True
+other,other,35720,0.434015,True
+dry goods pasta,grains rice dried goods,140388,0.427273,True
+international,kosher foods,11602,0.426737,True
+international,latino foods,73325,0.426676,True
+pantry,doughs gelatins bake mixes,103410,0.422135,True
+household,dish detergents,92648,0.419912,True
+missing,missing,75130,0.406216,True
+pantry,honeys syrups nectars,65530,0.383015,True
+international,asian foods,161816,0.376885,True
+pantry,oils vinegars,239416,0.376144,True
+personal care,muscles joints pain relief,18230,0.368788,True
+pantry,salad dressing toppings,96804,0.367691,True
+household,trash bags liners,31306,0.362774,True
+personal care,body lotions soap,39583,0.358134,True
+personal care,facial care,11826,0.347793,True
+personal care,oral hygiene,62252,0.346977,True
+personal care,feminine care,19351,0.345564,True
+personal care,soap,62891,0.340224,True
+household,air fresheners candles,19436,0.334431,True
+pantry,condiments,216361,0.332005,True
+personal care,vitamins supplements,44552,0.329525,True
+pantry,baking ingredients,317932,0.326435,True
+babies,baby bath body care,8383,0.313253,False
+household,cleaning products,115307,0.312678,True
+pantry,marinades meat preparation,60922,0.302058,True
+snacks,ice cream toppings,10883,0.288523,True
+personal care,shave needs,10021,0.2858,True
+household,food storage,63840,0.275454,True
+household,more household,17235,0.267073,True
+personal care,hair care,30995,0.266559,True
+personal care,deodorants,14479,0.258512,True
+personal care,skin care,10132,0.256415,True
+personal care,cold flu allergy,25588,0.252071,True
+personal care,eye ear care,8668,0.24227,False
+personal care,beauty,5957,0.230653,False
+personal care,first aid,10536,0.21213,True
+household,kitchen supplies,8897,0.210633,False
+pantry,baking supplies decor,23070,0.180061,True
+pantry,spices seasonings,206247,0.164148,True

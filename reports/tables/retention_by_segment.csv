@@ -1,0 +1,27 @@
+segment_type,segment,users,retained_7d,retained_14d,retained_30d_lower,share_second_gap_capped,meets_min_users
+all,all,206209,0.325752,0.557459,0.768007,0.231993,True
+first_basket_size,1-5 items,63775,0.318636,0.529251,0.74363,0.25637,True
+first_basket_size,11-20 items,59749,0.324407,0.570436,0.781787,0.218213,True
+first_basket_size,21+ items,19148,0.304053,0.561991,0.77888,0.22112,True
+first_basket_size,6-10 items,63537,0.340699,0.572202,0.776241,0.223759,True
+first_basket_top_department,alcohol,2523,0.374158,0.577883,0.773286,0.226714,True
+first_basket_top_department,babies,1497,0.335337,0.587174,0.797595,0.202405,True
+first_basket_top_department,bakery,4987,0.327451,0.560056,0.762783,0.237217,True
+first_basket_top_department,beverages,19001,0.315878,0.536393,0.756329,0.243671,True
+first_basket_top_department,breakfast,1630,0.313497,0.534969,0.758896,0.241104,True
+first_basket_top_department,bulk,33,0.242424,0.454545,0.727273,0.272727,False
+first_basket_top_department,canned goods,2430,0.311523,0.534979,0.728395,0.271605,True
+first_basket_top_department,dairy eggs,26345,0.329095,0.570848,0.779009,0.220991,True
+first_basket_top_department,deli,1326,0.33635,0.544495,0.769231,0.230769,True
+first_basket_top_department,dry goods pasta,2021,0.299852,0.516576,0.748639,0.251361,True
+first_basket_top_department,frozen,19746,0.307151,0.538033,0.759951,0.240049,True
+first_basket_top_department,household,3909,0.262983,0.469941,0.695063,0.304937,True
+first_basket_top_department,international,552,0.347826,0.561594,0.748188,0.251812,False
+first_basket_top_department,meat seafood,1187,0.313395,0.525695,0.742207,0.257793,True
+first_basket_top_department,missing,22,0.5,0.636364,0.818182,0.181818,False
+first_basket_top_department,other,227,0.370044,0.568282,0.77533,0.22467,False
+first_basket_top_department,pantry,7165,0.313747,0.525052,0.731891,0.268109,True
+first_basket_top_department,personal care,2567,0.276587,0.491624,0.705103,0.294897,True
+first_basket_top_department,pets,629,0.27663,0.518283,0.72655,0.27345,False
+first_basket_top_department,produce,96563,0.335284,0.571886,0.777762,0.222238,True
+first_basket_top_department,snacks,11849,0.323572,0.550933,0.771204,0.228796,True
