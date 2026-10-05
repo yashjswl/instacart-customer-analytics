@@ -15,8 +15,8 @@ JOIN user_orders o2 ON o2.user_id = f.user_id AND o2.order_number = 2;
 
 SELECT
     COUNT(*) AS users,
-    AVG(returned_14d) AS baseline_14d_reorder_rate,
+    ROUND(AVG(returned_14d), 6) AS baseline_14d_reorder_rate,
     COUNT(second_basket_size) AS users_with_guardrail_value,
-    AVG(second_basket_size) AS guardrail_mean_items,
-    STDDEV_SAMP(second_basket_size) AS guardrail_sd_items
+    ROUND(AVG(second_basket_size), 4) AS guardrail_mean_items,
+    ROUND(STDDEV_SAMP(second_basket_size), 4) AS guardrail_sd_items
 FROM ab_users;
